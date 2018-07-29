@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>{{ msg }}</h1>
+    <h3>{{ msg2 }}</h3>
   </div>
 </template>
 
@@ -9,7 +10,8 @@ export default {
   name: 'HelloWorld',
   data() {
     return {
-      msg: 'Hola Mundo con Vue.js'
+      msg: 'Pruebas Vue.js // CodeSandbox // ZeitNow // Github',
+      msg2: 'JoseGarciaMañez © 2018'
     };
   }
 };
